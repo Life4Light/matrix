@@ -8,7 +8,7 @@
 #define FAILURE 0
 #define TRUE 1
 #define FALSE 0
-
+#define EPS 1e-7
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>

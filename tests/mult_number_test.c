@@ -40,7 +40,7 @@ START_TEST(mult_by_negative) {
     }
   }
   s21_mult_number(&m, -1, &my_result);
-  ck_assert_int_eq(s21_eq_matrix(&m, &result), 0);
+  ck_assert_int_eq(s21_eq_matrix(&my_result, &result), 1);
   s21_remove_matrix(&m);
   s21_remove_matrix(&result);
   s21_remove_matrix(&my_result);
